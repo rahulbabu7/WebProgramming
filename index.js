@@ -23,3 +23,10 @@ for (let i = 1; i < 10; i++) {
 
 document.writeln("</table>");
 
+
+var x;
+var cars =["Maruthi","Toyoto", "BMW"];
+for (x in cars)
+{
+alert(x+ "="+ cars[x]);
+}
